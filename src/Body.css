@@ -1,0 +1,6 @@
+.Body {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(30vw, 1fr));
+    grid-template-rows: minmax(1rem, auto) minmax(60vh, auto);
+    grid-column-gap: 2rem;
+}
